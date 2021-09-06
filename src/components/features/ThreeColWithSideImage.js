@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Providing you with the knowledge needed to engage in an ecosystem that rewards data enthusiast." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Providing you with the knowledge needed to engage in an ecosystem that rewards data enthusiasts." }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -71,7 +71,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: GradCap,
       title: "Tutorials",
-      description: "Hands-on learning of how to currate and sell data."
+      description: "Hands-on learning of how to curate and sell data."
     },
     {
       imageSrc: SimpleIconImage, 
@@ -80,7 +80,7 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     },
     { imageSrc: ReliableIconImage, 
       title: "Access",
-      description: "Easy access to a currated data marketplace."
+      description: "Easy access to a curated data marketplace."
     },
     { imageSrc:  FastIconImage, 
       title: "Easy",
