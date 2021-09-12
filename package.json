@@ -24,6 +24,9 @@
     "tailwindcss": "^2.1.1",
     "twin.macro": "^2.3.3"
   },
+  "engines": {
+    "node": ">=6.9.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
