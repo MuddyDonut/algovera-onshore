@@ -40,15 +40,13 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  subheading = "Our Mission",
   heading = (
     <>
-      We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
+      We believe that you should own <wbr /> your <span tw="text-primary-500">intellectual property.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  description = "Typically, tech companies and universities ask you to sign a contract giving them ownership of all of your ideas and IP that you create during your employment. Competition platforms sometimes give cash prizes, but hand over your creations to competition sponsors. What if data scientists could become owners of what they create? With Algovera, you can maintain ownership over the data you provide and get paid for it.",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
   imageContainerCss = null,
@@ -58,25 +56,6 @@ export default ({
   statistics = null,
   textOnLeft = false
 }) => {
-  // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
-  //Change the statistics variable as you like, add or delete objects
-  const defaultStatistics = [
-    {
-      key: "Clients",
-      value: "2282+"
-    },
-    {
-      key: "Projects",
-      value: "3891+"
-    },
-    {
-      key: "Awards",
-      value: "1000+"
-    }
-  ];
-
-  if (!statistics) statistics = defaultStatistics;
-
   return (
     <Container>
       <TwoColumn css={!imageInsideDiv && tw`md:items-center`}>
@@ -89,17 +68,6 @@ export default ({
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            <Statistics>
-              {statistics.map((statistic, index) => (
-                <Statistic key={index}>
-                  <Value>{statistic.value}</Value>
-                  <Key>{statistic.key}</Key>
-                </Statistic>
-              ))}
-            </Statistics>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
-              {primaryButtonText}
-            </PrimaryButton>
           </TextContent>
         </TextColumn>
       </TwoColumn>
