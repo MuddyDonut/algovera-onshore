@@ -11,12 +11,15 @@ import FAQ from "components/faqs/SingleCol.js";
 import GetStarted from "components/cta/GetStarted";
 import Footer from "components/footers/FiveColumnWithBackground.js";
 import macHeroScreenshotImageSrc from "images/hero-screenshot-2.png";
+import WithStatsAndImage2Features from "components/features/TwoColSingleFeatureWithStats2.js";
+
 
 
 export default () => {
   const Subheading = tw.span`uppercase tracking-widest font-bold text-primary-500`;
   const HighlightedText = tw.span`text-primary-500`;
 
+  
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
@@ -54,6 +57,7 @@ export default () => {
           },
         ]}
       />
+      <WithStatsAndImage2Features />
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
