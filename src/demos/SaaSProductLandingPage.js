@@ -31,7 +31,7 @@ export default () => {
           </>
         }
       />
-
+      <WithStatsAndImage2Features />
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
         heading={
@@ -57,7 +57,6 @@ export default () => {
           },
         ]}
       />
-      <WithStatsAndImage2Features />
       <GetStarted/>
       <Footer />
     </AnimationRevealPage>
