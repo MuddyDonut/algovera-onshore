@@ -46,7 +46,7 @@ export default ({
       We believe that you should own <wbr /> your <span tw="text-primary-500">intellectual property.</span>
     </>
   ),
-  description = "Typically, tech companies and universities ask you to sign a contract giving them ownership of all of your ideas and IP that you create during your employment. Competition platforms sometimes give cash prizes, but hand over your creations to competition sponsors. What if data scientists could become owners of what they create? With Algovera, you can maintain ownership over the data you provide and get paid for it.",
+  description = "Typically, tech companies and universities ask you to sign a contract giving them ownership of all of your ideas and IP that you create during your employment. Competition platforms sometimes give cash prizes, but hand over your creations to competition sponsors. What if data scientists could become owners of what they create? With Data Onshore, you can maintain ownership over the data you provide and get paid for it.",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
   imageContainerCss = null,

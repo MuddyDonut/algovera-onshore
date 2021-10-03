@@ -64,11 +64,11 @@ export default () => {
         <ThreeColRow>
           <LogoContainer>
             <LogoImg src={LogoImage} />
-            <LogoText>Algovera</LogoText>
+            <LogoText>Data Onshore</LogoText>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2021 Algovera All Rights Reserved.</CopywrightNotice>
+          <CopywrightNotice>&copy; 2021 Data Onshore All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
-            <SocialLink href="https://twitter.com/Algovera_ai">
+            <SocialLink href="https://twitter.com/DataOnshore">
               <TwitterIcon />
             </SocialLink>
             <SocialLink href="https://discord.com">

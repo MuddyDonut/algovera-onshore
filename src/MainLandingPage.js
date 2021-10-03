@@ -97,7 +97,7 @@ export default ({
   landingPages = components.landingPages,
   innerPages = components.innerPages,
   blocks = components.blocks,
-  heading = "Algovera",
+  heading = "Data Onshore",
   description = "Easily customizable modern React UI Templates and Components built using TailwindCSS which are also lightweight and simple to setup. All components are modular and fully responsive for great mobile experience as well as big desktop screens.  Brand Colors are also fully customizable. Free for personal as well as commercial use."
 }) => {
   /*
@@ -137,7 +137,7 @@ export default ({
           <NavRow>
             <LogoLink href="/">
               <img src={logo} alt="" />
-              Algovera
+              Data Onshore
             </LogoLink>
             <div tw="flex flex-wrap justify-center lg:justify-end items-center -mr-12">
               <NavLink target="_blank" href="https://owaiskhan.me/post/free-tailwindcss-react-ui-kit">
