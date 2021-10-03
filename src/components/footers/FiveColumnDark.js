@@ -48,7 +48,7 @@ export default () => {
           <CompanyColumn>
             <LogoContainer>
               <LogoImg src={LogoImage} />
-              <LogoText>Algovera LLC</LogoText>
+              <LogoText>Data Onshore</LogoText>
             </LogoContainer>
             <CompanyAddress>
               123 Road, New Startup Building
@@ -138,7 +138,7 @@ export default () => {
         </FiveColumns>
         <Divider/>
         <CopyrightAndCompanyInfoRow>
-          <CopyrightNotice>&copy; Copyright 2021, Algovera LLC</CopyrightNotice>
+          <CopyrightNotice>&copy; Copyright 2021, Data Onshore</CopyrightNotice>
           <CompanyInfo>An Internet Company.</CompanyInfo>
         </CopyrightAndCompanyInfoRow>
       </Content>
