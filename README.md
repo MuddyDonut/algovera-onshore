@@ -1,8 +1,24 @@
-# Bring your data onshore
-## Buy, sell, and sponsor datasets and applications 
+# onshore-ocean
 
-## Stay tuned for updates!
+## Project setup
+```
+npm install
+```
 
-To run our app:
-1. npm install
-2. npm run start
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
