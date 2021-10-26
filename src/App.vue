@@ -284,21 +284,6 @@ export default {
       ],
     };
   },
-  // created() {
-  //   axios
-  //     .get(
-  //       "https://jsonplaceholder.typicode.com/users/",
-  //       // {
-  //       //   headers: {
-  //       //     'Authorization': 'Bearer eN1vHPUc08Qz8QkPeqhmtzEKmJrykPFjCF7TT2HAvA8='
-  //       //   },
-  //       // }
-  //     )
-  //     .then((response) => {
-  //       this.items = response.data;
-  //       console.log(response.data);
-  //     });
-  // },
 };
 </script>
 

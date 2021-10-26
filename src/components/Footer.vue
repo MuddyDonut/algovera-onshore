@@ -32,6 +32,7 @@
             </div>
             <div class="flex flex-col">
                 <div class="flex mt-24 mb-12 flex-row justify-between">
+                    <p><a href="https://storyset.com/data">Data illustrations by Storyset</a></p>
                     <a class="hidden md:block cursor-pointer text-gray-600 hover:text-gray uppercase">About</a>
                     <a class="hidden md:block cursor-pointer text-gray-600 hover:text-gray uppercase">Services</a>
                     <a class="hidden md:block cursor-pointer text-gray-600 hover:text-gray uppercase">Why us</a>
