@@ -10,8 +10,9 @@
         <h3 class="text-lg font-semibold text-gray-800">{{ item.symbol }}</h3>
         <p class="text-gray-600">${{ item.price}}</p>
         <div class="mt-4">
-          <a href="https://buy.stripe.com/test_5kA7vRfLD8SR520144" class="text-indigo-500 hover:text-indigo-400 font-semibold text-sm"> Buy </a>
-          <a href="https://buy.stripe.com/test_5kA7vRfLD8SR520144" class="text-indigo-300 hover:text-indigo-400 font-semibold text-sm"> Sample </a>
+          <a href="#" class="text-indigo-100 hover:text-indigo-200 font-semibold text-sm"> Buy (Soon!) </a>
+          <!-- <a href="https://buy.stripe.com/test_5kA7vRfLD8SR520144" class="text-indigo-500 hover:text-indigo-400 font-semibold text-sm"> Sample </a> -->
+          <a href="https://streamlitdemo.herokuapp.com/" class="text-indigo-500 hover:text-indigo-400 font-semibold text-sm"> Sample </a>
         </div>
         
       </div>
