@@ -30,7 +30,7 @@
             mb-8
             lg:text-8xl
             md:text-6xl
-            text-6xl
+            text-5xl
             font-bold
             leading-none
             tracking-normal
@@ -84,7 +84,7 @@
         </div>
       </div>
     </div>
-    <div class="grid lg:grid-cols-2 w-full py-12 items-center justify-center">
+    <div class="grid lg:grid-cols-2 w-full py-12 items-center justify-center mt-4 bg-white">
       <img
         class="mt-6 sm:mt-8 sm:h-96 sm:w-full lg:hidden"
         src="./assets/investment.svg"
@@ -192,7 +192,7 @@
         </p>
       </div>
     </div>
-    <div class="w-full py-12 items-center justify-center">
+    <div class="w-full py-12 items-center justify-center mt-4 bg-white">
       <div class="px-8 max-w-md mx-auto sm:max-w-xl">
         <h1
           class="
