@@ -274,7 +274,7 @@ export default {
         {
           rank: 1,
           pastDayRank: 1,
-          symbol: "Project Lynx",
+          symbol: "Ocean Analysis",
           score: 6.460213849854606,
           gini: 0.8844487043156986,
           lastCrawl: "2021-10-10T00:01:00.034Z",
