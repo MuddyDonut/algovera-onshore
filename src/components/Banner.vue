@@ -7,7 +7,7 @@
 
           <p class="ml-3 font-medium text-white truncate">
             <span class="md:hidden">
-              Data Builders! Participate for $3000 in grants.
+              Data Builders! $3000 in grants.
             </span>
             <span class="hidden md:inline">
               Our Grant program is live! Apply to participate for $3000 in grants.
