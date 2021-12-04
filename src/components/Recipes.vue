@@ -14,7 +14,7 @@
           Data Onshore
         </a>
         <!-- Nav Links -->
-        <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+        <ul class="hidden md:flex mx-auto font-semibold font-heading space-x-10">
           <li><a class="hover:text-green-400" href="#market">Marketplace</a></li>
           <li><a class="hover:text-green-400" href="#footer">Contact Us</a></li>
         </ul>
