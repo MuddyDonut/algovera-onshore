@@ -28,7 +28,7 @@
         <h1
           class="
             mb-8
-            lg:text-8xl
+            lg:text-7xl
             md:text-6xl
             text-5xl
             font-bold
@@ -38,7 +38,7 @@
             md:tracking-tight
           "
         >
-          Community Built
+          Creator Owned
           <span
             class="
               block
@@ -52,12 +52,12 @@
               to-purple-500
               lg:inline
             "
-            >Data Apps</span
+            >Data Content</span
           >
         </h1>
         <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
           Marketplace where you can buy
-          <br />and sell Data Applications
+          <br />and sell Data Content
           <br />
           <span class="font-bold">Created by users, for users.</span>
         </p>
@@ -66,7 +66,9 @@
           <a
             href="https://share.hsforms.com/1YXZ6_OwXRgOuKexSsGdDVQ55vc7"
             class="
-              bg-purple-500
+              bg-gradient-to-r
+              from-green-400
+              to-purple-500
               inline-block
               px-5
               py-3
@@ -84,13 +86,24 @@
         </div>
       </div>
     </div>
-    <div class="grid lg:grid-cols-2 w-full py-12 items-center justify-center mt-4 bg-white">
+    <div
+      class="
+        grid
+        lg:grid-cols-2
+        w-full
+        md:px-40
+        py-12
+        items-center
+        justify-center
+        mt-4
+      "
+    >
       <img
         class="mt-6 sm:mt-8 sm:h-96 sm:w-full lg:hidden"
         src="./assets/investment.svg"
         alt="floating cyborg"
       />
-      <div class="px-8 max-w-md mx-auto sm:max-w-xl">
+      <div class="px-6 max-w-md mx-auto">
         <h1
           class="
             mb-8
@@ -99,10 +112,10 @@
             leading-none
             tracking-normal
             text-gray-900
-            md:text-6xl md:tracking-tight
+            md:text-4xl md:tracking-tight
           "
         >
-          Create Apps
+          Create Content
           <br />
           <span
             class="
@@ -124,11 +137,11 @@
           Everyone is used to giving away their data projects.
           <br />Earn your fair share. Build for everyone.
           <br />
-          <span class="font-bold">Create an app and sell it!</span>
+          <span class="font-bold">Create content and sell it!</span>
         </p>
       </div>
       <img
-        class="mt-6 sm:mt-8 sm:h-full sm:w-8/12 hidden lg:block"
+        class="mt-6 sm:mt-8 sm:h-full sm:w-10/12 hidden lg:block"
         src="./assets/investment.svg"
         alt="floating cyborg"
       />
@@ -136,7 +149,7 @@
     <div
       class="
         grid
-        md:px-20
+        md:px-40
         lg:grid-cols-2
         w-full
         py-12
@@ -145,7 +158,7 @@
       "
     >
       <img
-        class="mt-6 sm:mt-8 sm:h-full sm:w-8/12 hidden lg:block"
+        class="mt-6 md:ml-8 sm:mt-8 sm:h-full sm:w-8/12 hidden lg:block"
         src="./assets/android-animate.svg"
         alt="floating cyborg"
       />
@@ -154,7 +167,7 @@
         src="./assets/android-animate.svg"
         alt="floating cyborg"
       />
-      <div class="px-8 max-w-md mx-auto sm:max-w-xl">
+      <div class="px-6 max-w-md mx-auto">
         <h1
           class="
             mb-8
@@ -163,10 +176,10 @@
             leading-none
             tracking-normal
             text-gray-900
-            md:text-6xl md:tracking-tight
+            md:text-4xl md:tracking-tight
           "
         >
-          Try it out
+          Try out samples
           <br />
           <span
             class="
@@ -188,11 +201,31 @@
           Markeplace listings come with sample views.
           <br />Don't go in blind.
           <br />
-          <span class="font-bold">Try out an app, no hassle required!</span>
+          <span class="font-bold">Sample content, no sign in required.</span>
         </p>
       </div>
     </div>
-    <div class="w-full py-12 items-center justify-center mt-4 bg-white">
+    <div
+      class="
+        w-full
+        h-5/6
+        items-center
+        justify-center
+        max-w-md
+        sm:max-w-xl
+        lg:max-w-6xl
+        mx-auto
+        mt-4
+        px-8
+        lg:px-12
+        py-8
+        rounded-3xl
+        bg-gradient-to-r
+              from-green-400
+              to-purple-500
+        
+      "
+    >
       <div class="px-8 max-w-md mx-auto sm:max-w-xl">
         <h1
           class="
@@ -201,25 +234,25 @@
             font-extrabold
             leading-none
             tracking-normal
-            text-gray-900
-            md:text-6xl md:tracking-tight
+            text-white
+            md:text-4xl md:tracking-tight
           "
         >
-          Why us?
+          For Creators
         </h1>
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Data Onshore provides a marketplace for contributors to build and sell
-          data applications and services.
+        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
+          Data Onshore provides a marketplace for creators to build and sell
+          data content and services.
         </p>
         <br />
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Big Tech monoplozies these applications and data professionals are
+        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
+          Big Tech monoplozies data content and data creators are
           left behind.
         </p>
         <br />
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Our mission is to educate and empower data professionals to build and
-          sell data applications and services.
+        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
+          Our mission is to educate and empower data creators to build and
+          sell data content and services.
         </p>
       </div>
     </div>
@@ -236,7 +269,7 @@
             to-purple-500
           "
         >
-          Data Applications</span
+          Data Content</span
         >
       </h1>
       <Market :items="items" />
@@ -288,7 +321,7 @@ export default {
         {
           rank: 2,
           pastDayRank: 2,
-          symbol: "Your App Here",
+          symbol: "Your Content Here",
           score: 6.417833643988541,
           gini: 0.9287300854972028,
           lastCrawl: "2021-10-10T00:01:00.034Z",
@@ -302,7 +335,7 @@ export default {
         {
           rank: 3,
           pastDayRank: 3,
-          symbol: "Your App Here",
+          symbol: "Your Content Here",
           score: 2.891896149243334,
           gini: 0.697214323487343,
           lastCrawl: "2021-10-10T00:01:00.034Z",
