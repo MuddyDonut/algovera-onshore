@@ -3,89 +3,74 @@
     <header><Recipes /></header>
     <Banner />
 
-    <div
-      class="
-        bg-gradient-to-b
-        from-white
-        via-purple-200
-        to-indigo-300
-        w-full
-        h-5/6
-        items-center
-        justify-center
-        max-w-md
-        sm:max-w-xl
-        lg:max-w-6xl
-        mx-auto
-        mt-4
-        px-8
-        lg:px-12
-        py-8
-        rounded-3xl
-      "
-    >
-      <div class="py-12 px-8 max-w-md mx-auto sm:max-w-xl">
-        <h1
+    <div class="mt-24 mx-auto text-center">
+      <h1
+        class="
+          mb-8
+          md:mx-56
+          mx-16
+          lg:text-6xl
+          md:text-5xl
+          text-6xl text-center
+          font-medium
+          leading-none
+          tracking-normal
+          text-gray-900
+          md:tracking-normal
+        "
+      >
+        Onshore! is an inclusive, income platform for
+        <span
           class="
-            mb-8
-            lg:text-7xl
-            md:text-6xl
-            text-5xl
-            font-bold
-            leading-none
-            tracking-normal
-            text-gray-900
-            md:tracking-tight
+            block
+            w-full
+            py-2
+            text-transparent
+            bg-clip-text
+            leading-12
+            bg-gradient-to-r
+            from-green-400
+            to-purple-500
+            lg:inline
           "
+          >Data Creators</span
         >
-          Creator Owned
-          <span
-            class="
-              block
-              w-full
-              py-2
-              text-transparent
-              bg-clip-text
-              leading-12
-              bg-gradient-to-r
-              from-green-400
-              to-purple-500
-              lg:inline
-            "
-            >Data Content</span
-          >
-        </h1>
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Marketplace where you can buy
-          <br />and sell Data Content
-          <br />
-          <span class="font-bold">Created by users, for users.</span>
-        </p>
-
-        <div class="mt-6 sm:mt-6">
-          <a
-            href="https://share.hsforms.com/1YXZ6_OwXRgOuKexSsGdDVQ55vc7"
-            class="
-              bg-gradient-to-r
-              from-green-400
-              to-purple-500
-              inline-block
-              px-5
-              py-3
-              shadow-lg
-              text-white
-              rounded-lg
-              uppercase
-              tracking-wider
-              font-semibold
-              text-sm
-              sm:text-base
-            "
-            >Join Wailtlist</a
-          >
-        </div>
+      </h1>
+      <div class="mt-6 sm:mt-6">
+        <a
+          href="https://share.hsforms.com/1YXZ6_OwXRgOuKexSsGdDVQ55vc7"
+          class="
+            bg-gradient-to-r
+            from-green-400
+            to-purple-500
+            inline-block
+            px-5
+            py-3
+            shadow-lg
+            text-white
+            rounded-lg
+            uppercase
+            tracking-wider
+            font-semibold
+            text-sm
+            sm:text-base
+          "
+          >Join Wailtlist</a
+        >
       </div>
     </div>
+
+    <img
+      class="mt-6 mx-36 sm:mt-24 sm:h-3/6 sm:w-10/12 hidden lg:block"
+      src="./assets/group.jpg"
+      alt="floating cyborg"
+    />
+    <img
+      class="mt-24 sm:mt-8 sm:h-96 sm:w-full lg:hidden"
+      src="./assets/group.jpg"
+      alt="floating cyborg"
+    />
+
     <div
       class="
         grid
@@ -108,7 +93,7 @@
           class="
             mb-8
             text-4xl
-            font-extrabold
+            font-sans font-medium
             leading-none
             tracking-normal
             text-gray-900
@@ -133,11 +118,19 @@
             >Earn Income</span
           >
         </h1>
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
-          Everyone is used to giving away their data projects.
-          <br />Earn your fair share. Build for everyone.
+        <p
+          class="
+            mb-8
+            text-4xl
+            font-sans font-thin
+            leading-none
+            tracking-normal
+            text-gray-900
+            md:text-4xl md:tracking-tight
+          "
+        >
+          Data creators! Build content for everyone to enjoy.
           <br />
-          <span class="font-bold">Create content and sell it!</span>
         </p>
       </div>
       <img
@@ -172,20 +165,21 @@
           class="
             mb-8
             text-4xl
-            font-extrabold
+            font-sans font-medium
             leading-none
             tracking-normal
             text-gray-900
             md:text-4xl md:tracking-tight
           "
         >
-          Try out samples
+          Browse for free
           <br />
           <span
             class="
               block
               w-full
               py-2
+              font-sans font-medium
               text-transparent
               bg-clip-text
               leading-12
@@ -194,14 +188,19 @@
               to-purple-500
               lg:inline
             "
-            >For Free</span
+            >Or purchase special access</span
           >
         </h1>
-        <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+        <p class="mb-8
+            text-4xl
+            font-sans
+            leading-none
+            font-thin
+            tracking-normal
+            text-gray-900
+            md:text-4xl md:tracking-tight">
           Markeplace listings come with sample views.
           <br />Don't go in blind.
-          <br />
-          <span class="font-bold">Sample content, no sign in required.</span>
         </p>
       </div>
     </div>
@@ -216,43 +215,36 @@
         lg:max-w-6xl
         mx-auto
         mt-4
-        px-8
         lg:px-12
         py-8
         rounded-3xl
         bg-gradient-to-r
-              from-green-400
-              to-purple-500
-        
+        from-green-100
+        to-purple-200
       "
     >
-      <div class="px-8 max-w-md mx-auto sm:max-w-xl">
+      <div class="px-8 py-28 max-w-md mx-auto sm:max-w-xl">
         <h1
           class="
-            mb-8
-            text-4xl
-            font-extrabold
-            leading-none
-            tracking-normal
-            text-white
-            md:text-4xl md:tracking-tight
+          mb-8
+          lg:text-7xl
+          md:text-5xl
+          text-6xl text-center
+          font-medium
+          leading-none
+          tracking-normal
+          text-grey-900
+          md:tracking-normal
           "
         >
           For Creators
         </h1>
-        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
-          Data Onshore provides a marketplace for creators to build and sell
+        <p class="text-center font-sans mt-2 mb-2 text-grey-900 sm:mt-4 sm:text-xl">
+          Data Onshore provides a platoform for creators to build and sell
           data content and services.
-        </p>
-        <br />
-        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
-          Big Tech monoplozies data content and data creators are
-          left behind.
-        </p>
-        <br />
-        <p class="mt-2 text-white sm:mt-4 sm:text-xl">
-          Our mission is to educate and empower data creators to build and
-          sell data content and services.
+          Big Tech monoplozies data content and <br />data creators are left behind.
+          Our mission is to educate and empower data creators to build and sell
+          data content and services.
         </p>
       </div>
     </div>
