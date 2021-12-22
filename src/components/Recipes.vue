@@ -11,12 +11,12 @@
               from-green-400
               to-purple-500" href="#">
           <!-- <img class="h-9" src="logo.png" alt="logo"> -->
-          Data Onshore
+          Onshore!
         </a>
         <!-- Nav Links -->
         <ul class="hidden md:flex mx-auto font-semibold font-heading space-x-10">
-          <li><a class="hover:text-green-400" href="#market">Marketplace</a></li>
-          <li><a class="hover:text-green-400" href="#footer">Contact Us</a></li>
+          <li><a class="hover:text-green-400 text-gray-500  font-thin" href="#market">Marketplace</a></li>
+          <li><a class="hover:text-green-400 text-gray-500 font-thin" href="#footer">Contact Us</a></li>
         </ul>
         <!-- Header Icons -->
         <div class="hidden xl:flex items-center space-x-5 items-center">
