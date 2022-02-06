@@ -1,7 +1,7 @@
 <template>
   <div>
     <header><Recipes /></header>
-    <Banner />
+    <!-- <Banner /> -->
 
     <div class="mt-24 mx-auto text-center">
       <h1
@@ -19,7 +19,7 @@
           md:tracking-normal
         "
       >
-        Onshore! is an inclusive, income platform for
+        Onshore! is a data platform for
         <span
           class="
             block
@@ -33,7 +33,7 @@
             to-purple-500
             lg:inline
           "
-          >Data Creators</span
+          >Data Creators, Companies, and the Data Curious</span
         >
       </h1>
       <div class="mt-6 sm:mt-6">
@@ -61,12 +61,12 @@
     </div>
 
     <img
-      class="mt-6 mx-36 sm:mt-24 sm:h-3/6 sm:w-10/12 hidden lg:block"
+      class="mt-6 mx-36 sm:mt-24 sm:h-3/6 sm:w-10/12 hidden lg:block rounded-lg"
       src="./assets/group.jpg"
       alt="floating cyborg"
     />
     <img
-      class="mt-24 sm:mt-8 sm:h-96 sm:w-full lg:hidden"
+      class="mt-24 sm:mt-8 sm:h-96 sm:w-full lg:hidden rounded-lg"
       src="./assets/group.jpg"
       alt="floating cyborg"
     />
@@ -277,7 +277,7 @@
 
 <script>
 import Recipes from "./components/Recipes.vue";
-import Banner from "./components/Banner.vue";
+// import Banner from "./components/Banner.vue";
 // import Info from "./components/Info.vue";
 import Market from "./components/DataAppMarketPlace.vue";
 import Footer from "./components/Footer.vue";
@@ -291,7 +291,7 @@ export default {
     Market,
     // Info,
     Footer,
-    Banner,
+    // Banner,
   },
   data() {
     return {

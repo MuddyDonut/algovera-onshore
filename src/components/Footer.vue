@@ -5,7 +5,7 @@
                 <h1 class="w-full md:w-2/3 bg-gradient-to-r
               from-green-400
               to-purple-500 text-transparent
-              bg-clip-text">Create content. </h1>
+              bg-clip-text">Have data? </h1>
               Get in touch.
             </div>
             <div class="flex mt-8 flex-col md:flex-row md:justify-between">
