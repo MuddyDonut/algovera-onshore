@@ -33,7 +33,7 @@
             to-purple-500
             lg:inline
           "
-          >Data Creators, Companies, and the Data Curious</span
+          >Data Creators, Companies, and the Curious</span
         >
       </h1>
       <div class="mt-6 sm:mt-6">
