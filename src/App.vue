@@ -1,9 +1,9 @@
 <template>
   <div>
     <header><Recipes /></header>
-    <Banner />
+    <!-- <Banner /> -->
 
-    <div class="mt-24 mx-auto text-center">
+    <div class="mt-24 mx-auto mb-32 text-center">
       <h1
         class="
           mb-8
@@ -19,7 +19,7 @@
           md:tracking-normal
         "
       >
-        Onshore! is an inclusive, income platform for
+        Onshore! is the data hub for finding
         <span
           class="
             block
@@ -60,16 +60,50 @@
       </div>
     </div>
 
-    <img
-      class="mt-6 mx-36 sm:mt-24 sm:h-3/6 sm:w-10/12 hidden lg:block"
-      src="./assets/group.jpg"
-      alt="floating cyborg"
-    />
-    <img
-      class="mt-24 sm:mt-8 sm:h-96 sm:w-full lg:hidden"
-      src="./assets/group.jpg"
-      alt="floating cyborg"
-    />
+    <div
+      class="
+        w-full
+        h-5/6
+        items-center
+        justify-center
+        max-w-md
+        sm:max-w-xl
+        lg:max-w-6xl
+        mx-auto
+        mt-4
+        lg:px-12
+        py-8
+        rounded-3xl
+        bg-gradient-to-r
+        from-green-100
+        to-purple-200
+      "
+    >
+      <div class="px-8 py-28 max-w-md mx-auto sm:max-w-xl">
+        <h1
+          class="
+          mb-8
+          lg:text-7xl
+          md:text-5xl
+          text-6xl text-center
+          font-medium
+          leading-none
+          tracking-normal
+          text-grey-900
+          md:tracking-normal
+          "
+        >
+          BUILD DATA
+        </h1>
+        <p class="text-center font-sans mt-2 mb-2 text-grey-900 sm:mt-4 sm:text-xl">
+          Data Onshore is a platform for creators to build and sell
+          data content and services.
+          Big Tech monoplozies data content and <br />data creators are left behind.
+          Our mission is to educate and empower data creators to build and sell independent
+          data content and services.
+        </p>
+      </div>
+    </div>
 
     <div
       class="
@@ -204,50 +238,7 @@
         </p>
       </div>
     </div>
-    <div
-      class="
-        w-full
-        h-5/6
-        items-center
-        justify-center
-        max-w-md
-        sm:max-w-xl
-        lg:max-w-6xl
-        mx-auto
-        mt-4
-        lg:px-12
-        py-8
-        rounded-3xl
-        bg-gradient-to-r
-        from-green-100
-        to-purple-200
-      "
-    >
-      <div class="px-8 py-28 max-w-md mx-auto sm:max-w-xl">
-        <h1
-          class="
-          mb-8
-          lg:text-7xl
-          md:text-5xl
-          text-6xl text-center
-          font-medium
-          leading-none
-          tracking-normal
-          text-grey-900
-          md:tracking-normal
-          "
-        >
-          For Creators
-        </h1>
-        <p class="text-center font-sans mt-2 mb-2 text-grey-900 sm:mt-4 sm:text-xl">
-          Data Onshore provides a platoform for creators to build and sell
-          data content and services.
-          Big Tech monoplozies data content and <br />data creators are left behind.
-          Our mission is to educate and empower data creators to build and sell
-          data content and services.
-        </p>
-      </div>
-    </div>
+
     <a name="market"></a>
     <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
       <h1 class="text-2xl font-bold sm:mt-8 sm:text-4xl">
@@ -277,7 +268,7 @@
 
 <script>
 import Recipes from "./components/Recipes.vue";
-import Banner from "./components/Banner.vue";
+// import Banner from "./components/Banner.vue";
 // import Info from "./components/Info.vue";
 import Market from "./components/DataAppMarketPlace.vue";
 import Footer from "./components/Footer.vue";
@@ -291,7 +282,7 @@ export default {
     Market,
     // Info,
     Footer,
-    Banner,
+    // Banner,
   },
   data() {
     return {
